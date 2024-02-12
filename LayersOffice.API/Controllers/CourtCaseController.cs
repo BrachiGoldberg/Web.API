@@ -51,18 +51,18 @@ namespace LayersOffice.API.Controllers
 
 
         [HttpPost]
-        public ActionResult Post([FromBody] CourtCasePostModel value)
+        public async Task<ActionResult> PostAsync([FromBody] CourtCasePostModel value)
         {
             var court = new CourtCase { CourtType = value.CourtType, Fees = value.Fees, OpeningDate = value.OpeningDate, CourtCaseStatus = value.CourtCaseStatus, CostumerStatusOnCourt = value.CostumerStatusOnCourt, CostumerId = value.CostumerId };
-            return Ok(_service.Post(court));
+            return Ok(await _service.PostAsync(court));
         }
 
         
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] CourtCasePutModel value)
+        public async Task<ActionResult> PutAsync(int id, [FromBody] CourtCasePutModel value)
         {
             var court = new CourtCase { Fees = value.Fees, ClosingDate = value.ClosingDate, CourtCaseStatus = value.CourtCaseStatus, AmountToPay = value.AmountToPay };
-            var res = _service.Put(id, court);
+            var res = await _service.PutAsync(id, court);
             if (res == null)
                 return NotFound();
             return Ok();
@@ -70,9 +70,9 @@ namespace LayersOffice.API.Controllers
 
 
         [HttpPut("{id}/status")]
-        public ActionResult Put(int id, [FromBody] CourtStatus status)
+        public async Task<ActionResult> PutAsync(int id, [FromBody] CourtStatus status)
         {
-            var res = _service.Put(id, status);
+            var res = await _service.PutAsync(id, status);
             if (res == null)
                 return NotFound();
             return Ok();

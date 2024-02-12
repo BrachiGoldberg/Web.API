@@ -28,7 +28,7 @@ namespace LayersOffice.Data.Reposirories
             return _data.Costumers.Include(c=>c.CourtCases).First(c=>c.Id == id);
         }
 
-        public Costumer Post(Costumer value)
+        public async Task<Costumer> PostAsync(Costumer value)
         {
             var newC = new Costumer()
             {
@@ -39,13 +39,13 @@ namespace LayersOffice.Data.Reposirories
                 Email = value.Email,
             };
             _data.Costumers.Add(newC);
-            _data.SaveChanges();
+            await _data.SaveChangesAsync();
             return newC;
         }
 
 
 
-        public Costumer Put(int id, Costumer value)
+        public async Task<Costumer> PutAsync(int id, Costumer value)
         {
             Costumer temp = _data.Costumers.Find(id);
             if (temp != null)
@@ -56,7 +56,7 @@ namespace LayersOffice.Data.Reposirories
                 temp.PhoneNumber = value.PhoneNumber;
                 temp.Email = value.Email;
 
-                _data.SaveChanges();
+                await _data.SaveChangesAsync();
                 return temp;
             }
             

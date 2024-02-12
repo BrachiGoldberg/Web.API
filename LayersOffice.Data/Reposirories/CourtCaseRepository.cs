@@ -31,7 +31,7 @@ namespace LayersOffice.Data.Reposirories
             return _data.CourtCases.Where(c => c.OpeningDate.CompareTo(date) >= 0);
         }
 
-        public CourtCase Post(CourtCase value)
+        public async Task<CourtCase> PostAsync(CourtCase value)
         {
             var court = new CourtCase()
             {
@@ -43,12 +43,12 @@ namespace LayersOffice.Data.Reposirories
                 AmountToPay = value.Fees
             };
             _data.CourtCases.Add(court);
-            _data.SaveChanges();
+            await _data.SaveChangesAsync();
             return court;
         }
 
 
-        public CourtCase Put(int id, CourtCase value)
+        public async Task<CourtCase> PutAsync(int id, CourtCase value)
         {
             var court = _data.CourtCases.Find(id);
             if (court != null)
@@ -59,20 +59,20 @@ namespace LayersOffice.Data.Reposirories
                 court.CostumerStatusOnCourt = value.CostumerStatusOnCourt;
                 court.AmountToPay = value.AmountToPay;
 
-                _data.SaveChanges();
+                await _data.SaveChangesAsync();
                 return court;
             }
             return null;
         }
 
-        public CourtCase Put(int id, CourtStatus status)
+        public async Task<CourtCase> PutAsync(int id, CourtStatus status)
         {
             var found = _data.CourtCases.Find(id);
             if (found != null)
             {
                 found.CourtCaseStatus = status;
 
-                _data.SaveChanges();
+                await _data.SaveChangesAsync();
                 return found;
             }
             return null;

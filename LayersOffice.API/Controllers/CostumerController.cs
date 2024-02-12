@@ -41,19 +41,19 @@ namespace LayersOffice.API.Controllers
 
         
         [HttpPost]
-        public ActionResult Post([FromBody] CostumerPostModel value)
+        public async Task<ActionResult> PostAsync([FromBody] CostumerPostModel value)
         {
             var c = new Costumer() { FirstName = value.FirstName, LastName = value.LastName, Address = value.Address, Email = value.Email, PhoneNumber = value.PhoneNumber };
-            var newCostumer = _service.Post(c);
+            var newCostumer =await _service.PostAsync(c);
             return Ok(newCostumer);
         }
 
         
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] CostumerPostModel value)
+        public async Task<ActionResult> PutAsync(int id, [FromBody] CostumerPostModel value)
         {
             var newC = new Costumer { Address = value.Address, Email = value.Email, PhoneNumber = value.PhoneNumber, FirstName = value.FirstName, LastName = value.LastName };
-            var c = _service.Put(id, newC);
+            var c =await _service.PutAsync(id, newC);
             if (c == null)
                 return NotFound();
             return Ok();

@@ -13,12 +13,12 @@ namespace LayersOffice.Core.Services
 
         Payment Get(int id);
 
-        Payment Post(Payment value);
+        Task<Payment> PostAsync(Payment value);
 
-        Payment Put(int id, Payment value);
+        Task<Payment> PutAsync(int id, Payment value);
 
-        Payment Put(int id, int sum);
+        Task<Payment> PutAsync(int id, int sum);
 
-        Payment Delete(int id);
+        Task<Payment> DeleteAsync(int id);
     }
 }

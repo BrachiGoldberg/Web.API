@@ -11,10 +11,10 @@ namespace LayersOffice.Core.Services
     {
         IEnumerable<Costumer> Get();
 
-        public Costumer Get(int id);
+        Costumer Get(int id);
 
-        Costumer Post(Costumer value);
+        Task<Costumer> PostAsync(Costumer value);
 
-        Costumer Put(int id, Costumer value);
+        Task<Costumer> PutAsync(int id, Costumer value);
     }
 }

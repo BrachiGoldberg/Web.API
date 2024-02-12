@@ -15,10 +15,10 @@ namespace LayersOffice.Core.Services
 
         IEnumerable<CourtCase> Get(DateTime date);
 
-        CourtCase Post(CourtCase value);
+        Task<CourtCase> PostAsync(CourtCase value);
 
-        CourtCase Put(int id, CourtCase value);
+        Task<CourtCase> PutAsync(int id, CourtCase value);
 
-        CourtCase Put(int id, CourtStatus status);
+        Task<CourtCase> PutAsync(int id, CourtStatus status);
     }
 }

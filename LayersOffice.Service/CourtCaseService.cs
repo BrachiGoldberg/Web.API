@@ -33,19 +33,19 @@ namespace LayersOffice.Service
         }
 
 
-        public CourtCase Post(CourtCase value)
+        public async Task<CourtCase> PostAsync(CourtCase value)
         {
-           return _courtCaseRepository.Post(value);
+           return await _courtCaseRepository.PostAsync(value);
         }
 
-        public CourtCase Put(int id, CourtCase value)
+        public async Task<CourtCase> PutAsync(int id, CourtCase value)
         {
-            return _courtCaseRepository.Put(id, value);
+            return await _courtCaseRepository.PutAsync(id, value);
         }
 
-        public CourtCase Put(int id, CourtStatus status)
+        public async Task<CourtCase> PutAsync(int id, CourtStatus status)
         {
-            return _courtCaseRepository.Put(id, status);
+            return await _courtCaseRepository.PutAsync(id, status);
         }
     }
 }

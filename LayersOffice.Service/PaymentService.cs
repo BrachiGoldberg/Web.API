@@ -27,25 +27,25 @@ namespace LayersOffice.Service
             return _paymentsRepository.Get(id);
         }
 
-        public Payment Post(Payment value)
+        public async Task<Payment> PostAsync(Payment value)
         {
-            return _paymentsRepository.Post(value);
+            return await _paymentsRepository.PostAsync(value);
         }
 
-        public Payment Put(int id, Payment value)
+        public async Task<Payment> PutAsync(int id, Payment value)
         {
-            return _paymentsRepository.Put(id, value);
+            return await _paymentsRepository.PutAsync(id, value);
         }
 
-        public Payment Put(int id, int sum)
+        public async Task<Payment> PutAsync(int id, int sum)
         {
-            return _paymentsRepository.Put(id, sum);
+            return await _paymentsRepository.PutAsync(id, sum);
         }
 
 
-        public Payment Delete(int id)
+        public async Task<Payment> DeleteAsync(int id)
         {
-            return _paymentsRepository.Delete(id);
+            return await _paymentsRepository.DeleteAsync(id);
         }
     }
 }

@@ -28,14 +28,14 @@ namespace LayersOffice.Service
             return _costumerRepository.Get(id);
         }
 
-        public Costumer Post(Costumer value)
+        public async Task<Costumer> PostAsync(Costumer value)
         {
-            return _costumerRepository.Post(value);
+            return await _costumerRepository.PostAsync(value);
         }
 
-        public Costumer Put(int id, Costumer value)
+        public async Task<Costumer> PutAsync(int id, Costumer value)
         {
-            return _costumerRepository.Put(id, value);
+            return await _costumerRepository.PutAsync(id, value);
         }
     }
 }

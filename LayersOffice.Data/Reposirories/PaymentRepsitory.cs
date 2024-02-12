@@ -27,7 +27,7 @@ namespace LayersOffice.Data.Reposirories
             return _data.Payments.Include(p=>p.CourtCase).First();
         }
 
-        public Payment Post(Payment value)
+        public async Task<Payment> PostAsync(Payment value)
         {
             var p = new Payment()
             {
@@ -36,46 +36,46 @@ namespace LayersOffice.Data.Reposirories
                 Sum = value.Sum
             };
             _data.Payments.Add(p);
-            _data.SaveChanges();
+            await _data.SaveChangesAsync();
             return p;
         }
 
-        public Payment Put(int id, Payment value)
+        public async Task<Payment> PutAsync(int id, Payment value)
         {
-            var income = _data.Payments.Find(id);
-            if (income != null)
+            var p = _data.Payments.Find(id);
+            if (p != null)
             {
-                income.Sum = value.Sum;
-                income.Date = value.Date;
-                income.PaymentBy = value.PaymentBy;
+                p.Sum = value.Sum;
+                p.Date = value.Date;
+                p.PaymentBy = value.PaymentBy;
 
-                _data.SaveChanges();
-                return income;
+                await _data.SaveChangesAsync();
+                return p;
             }
             return null;
         }
 
-        public Payment Put(int id, int sum)
+        public async Task<Payment> PutAsync(int id, int sum)
         {
-            var income = _data.Payments.Find(id);
-            if (income != null)
+            var p = _data.Payments.Find(id);
+            if (p != null)
             {
-                income.Sum = sum;
+                p.Sum = sum;
 
-                _data.SaveChanges();
-                return income;
+                await _data.SaveChangesAsync();
+                return p;
             }
             return null;
         }
 
-        public Payment Delete(int id)
+        public async Task<Payment> DeleteAsync(int id)
         {
             var income = _data.Payments.Find(id);
             if (income != null)
             {
                 _data.Payments.Remove(income);
 
-                _data.SaveChanges();
+                await _data.SaveChangesAsync();
                 return income;
             }
             return null;

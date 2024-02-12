@@ -41,18 +41,18 @@ namespace LayersOffice.API.Controllers
 
 
         [HttpPost]
-        public ActionResult Post([FromBody] PaymentPostModel value)
+        public async Task<ActionResult> PostAsync([FromBody] PaymentPostModel value)
         {
             var p = new Payment { Sum = value.Sum, Date = value.Date, PaymentBy = value.PaymentBy, CourtCaseId = value.CourtCaseId };
-            return Ok(_service.Post(p));
+            return Ok(await _service.PostAsync(p));
         }
 
 
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] PaymentPostModel value)
+        public async Task<ActionResult> PutAsync(int id, [FromBody] PaymentPostModel value)
         {
             var p = new Payment { Sum = value.Sum, Date = value.Date, PaymentBy = value.PaymentBy, CourtCaseId = value.CourtCaseId };
-            var income = _service.Put(id, p);
+            var income = await _service.PutAsync(id, p);
             if (income != null)
                 return Ok();
             return NotFound();
@@ -60,9 +60,9 @@ namespace LayersOffice.API.Controllers
 
 
         [HttpPut("{id}/sum")]
-        public ActionResult Put(int id, int sum)
+        public async Task<ActionResult> PutAsync(int id, int sum)
         {
-            var income = _service.Put(id, sum);
+            var income = await _service.PutAsync(id, sum);
             if (income != null)
                 return Ok();
             return NotFound();
@@ -70,9 +70,9 @@ namespace LayersOffice.API.Controllers
 
 
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> DeleteAsync(int id)
         {
-            var income = _service.Delete(id);
+            var income = await _service.DeleteAsync(id);
             if (income != null)
                 return Ok();
             return NotFound();
