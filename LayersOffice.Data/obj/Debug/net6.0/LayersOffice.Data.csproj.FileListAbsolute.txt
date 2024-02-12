@@ -1,0 +1,17 @@
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\bin\Debug\net6.0\LayersOffice.Data.deps.json
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\bin\Debug\net6.0\LayersOffice.Data.runtimeconfig.json
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\bin\Debug\net6.0\LayersOffice.Data.dll
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\bin\Debug\net6.0\LayersOffice.Data.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\bin\Debug\net6.0\LayersOffice.Core.dll
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\bin\Debug\net6.0\LayersOffice.Core.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.AssemblyInfo.cs
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.csproj.CopyComplete
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.dll
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\refint\LayersOffice.Data.dll
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\LayersOffice.Data.genruntimeconfig.cache
+C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Data\obj\Debug\net6.0\ref\LayersOffice.Data.dll
