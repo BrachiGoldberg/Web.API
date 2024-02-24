@@ -1,3 +1,4 @@
+using LayersOffice.API.Middlewares;
 using LayersOffice.Core;
 using LayersOffice.Core.Repositories;
 using LayersOffice.Core.Services;
@@ -42,6 +43,10 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.RenovationMiddleware();
+
+app.LoggerMiddleware();
 
 app.MapControllers();
 

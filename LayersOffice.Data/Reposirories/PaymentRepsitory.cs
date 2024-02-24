@@ -33,7 +33,8 @@ namespace LayersOffice.Data.Reposirories
             {
                 Date = new DateTime(),
                 PaymentBy = value.PaymentBy,
-                Sum = value.Sum
+                Sum = value.Sum,
+                CourtCaseId = value.CourtCaseId
             };
             _data.Payments.Add(p);
             await _data.SaveChangesAsync();

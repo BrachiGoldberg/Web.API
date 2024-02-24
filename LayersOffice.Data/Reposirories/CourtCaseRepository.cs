@@ -1,11 +1,6 @@
 ﻿using LayersOffice.Core.Entities;
 using LayersOffice.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LayersOffice.Data.Reposirories
 {
@@ -18,12 +13,12 @@ namespace LayersOffice.Data.Reposirories
         }
         public IEnumerable<CourtCase> Get()
         {
-            return _data.CourtCases.Include(c => c.Costumer);
+            return _data.CourtCases.Include(p => p.Payments) ;
         }
 
         public CourtCase Get(int id)
         {
-            return _data.CourtCases.Include(c=> c.Costumer).First(c => c.Id == id);
+            return _data.CourtCases.Include(p=> p.Payments).First(p => p.Id == id);
         }
 
         public IEnumerable<CourtCase> Get(DateTime date)
@@ -40,7 +35,8 @@ namespace LayersOffice.Data.Reposirories
                 OpeningDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day),
                 CourtCaseStatus = value.CourtCaseStatus,
                 CostumerStatusOnCourt = value.CostumerStatusOnCourt,
-                AmountToPay = value.Fees
+                AmountToPay = value.Fees,
+                CostumerId = value.CostumerId,
             };
             _data.CourtCases.Add(court);
             await _data.SaveChangesAsync();
