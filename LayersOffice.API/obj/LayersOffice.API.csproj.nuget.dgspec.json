@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj": {}
+    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj": {
+    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj",
         "projectName": "LayersOffice.API",
-        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\LayersOffice.API.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
+              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
               },
-              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj"
+              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj"
               },
-              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj"
+              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj"
               }
             }
           }
@@ -48,6 +48,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,18 +89,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
+    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj",
         "projectName": "LayersOffice.Core",
-        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -122,6 +127,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -149,18 +159,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj": {
+    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj",
         "projectName": "LayersOffice.Data",
-        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,8 +191,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
+              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
               }
             }
           }
@@ -191,6 +201,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -224,18 +239,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj": {
+    "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
         "projectName": "LayersOffice.Service",
-        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,8 +271,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
+              "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
               }
             }
           }
@@ -266,6 +281,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -287,7 +307,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

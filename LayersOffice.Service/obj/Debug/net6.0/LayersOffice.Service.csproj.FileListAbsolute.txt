@@ -13,3 +13,19 @@ C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersO
 C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\refint\LayersOffice.Service.dll
 C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.pdb
 C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\ref\LayersOffice.Service.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\bin\Debug\net6.0\LayersOffice.Service.deps.json
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\bin\Debug\net6.0\LayersOffice.Service.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\bin\Debug\net6.0\LayersOffice.Service.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\bin\Debug\net6.0\LayersOffice.Core.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\bin\Debug\net6.0\LayersOffice.Core.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.AssemblyInfo.cs
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.sourcelink.json
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOf.042CF236.Up2Date
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\refint\LayersOffice.Service.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\LayersOffice.Service.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Service\obj\Debug\net6.0\ref\LayersOffice.Service.dll

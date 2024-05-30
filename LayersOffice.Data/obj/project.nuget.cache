@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xzdWpLjPokFpdaCOjMWGQsPEbibEkum+bXQl53nhHt+BK7G8oU9M/IKsn2wCYWuIn1uIfPmDGpulcD03i9JjUw==",
+  "dgSpecHash": "44cghTRp0qVANDh1d/HLL8cUvsjw819G2+tzpXETJtO4TvUAiy2RDvWEkAPHVsE5GfUsT15sLhVSGrAwXCtMdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Data\\LayersOffice.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("07ace1cb-4883-4284-90cc-1663f1e595a7")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LayersOffice.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d973276d5589861a7fa3651633acdf71a7d3b36b")]
 [assembly: System.Reflection.AssemblyProductAttribute("LayersOffice.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LayersOffice.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

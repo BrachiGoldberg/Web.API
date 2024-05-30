@@ -231,11 +231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
       "projectName": "LayersOffice.Service",
-      "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
+      "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\LayersOffice.Service.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,8 +256,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
-              "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
+            "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj": {
+              "projectPath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj"
             }
           }
         }
@@ -266,6 +266,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -287,7 +292,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

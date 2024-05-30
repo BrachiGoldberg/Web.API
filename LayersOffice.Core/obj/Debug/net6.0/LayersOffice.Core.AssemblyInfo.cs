@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LayersOffice.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d973276d5589861a7fa3651633acdf71a7d3b36b")]
 [assembly: System.Reflection.AssemblyProductAttribute("LayersOffice.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LayersOffice.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

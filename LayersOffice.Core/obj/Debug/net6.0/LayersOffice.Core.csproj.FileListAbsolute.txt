@@ -10,3 +10,16 @@ C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersO
 C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\refint\LayersOffice.Core.dll
 C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.pdb
 C:\Users\user1\Documents\ברכי\תיכנות\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\ref\LayersOffice.Core.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\bin\Debug\net6.0\LayersOffice.Core.deps.json
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\bin\Debug\net6.0\LayersOffice.Core.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\bin\Debug\net6.0\LayersOffice.Core.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.AssemblyInfo.cs
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.sourcelink.json
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\refint\LayersOffice.Core.dll
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\LayersOffice.Core.pdb
+C:\Users\user1\Documents\ברכי\תיכנות\שנה ב\.Net Core\LayersOfficeApi\LayersOffice.Core\obj\Debug\net6.0\ref\LayersOffice.Core.dll

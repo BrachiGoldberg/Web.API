@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dTtnAfooV/gCJgJ7RsnKUvRUgR/k0Wr7D6fc6uxXMS14Z/i6oNTudH01b+q0zxg7wyj3mbeY0QavOkQgmeinug==",
+  "dgSpecHash": "ll+L7IdmvnqESPe72JzBKnIDdlgdqMfx9kr1LkqNW/u32Pj+a96DVRBx13hcbILYUG5J8xii3Uvb4aaMkdiYHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj",
+  "projectFilePath": "C:\\Users\\user1\\Documents\\ברכי\\תיכנות\\שנה ב\\.Net Core\\LayersOfficeApi\\LayersOffice.Core\\LayersOffice.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
